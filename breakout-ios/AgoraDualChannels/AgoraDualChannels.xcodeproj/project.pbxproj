@@ -35,6 +35,7 @@
 		0FDB80B920DB5904005D9C58 /* SubChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB80B820DB5904005D9C58 /* SubChannelController.swift */; };
 		2F4CB10E21FACFB300FAEEA0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4CB10D21FACFB200FAEEA0 /* Accelerate.framework */; };
 		704B1C8722A0DD7800968958 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704B1C8622A0DD7800968958 /* CoreML.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9A9084067F0F9CEAA06B55B0 /* Pods_AgoraDualChannels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3944404303793D005176B6 /* Pods_AgoraDualChannels.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,9 +67,12 @@
 		0F97089920D3B13900D0B476 /* PopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopView.xib; sourceTree = "<group>"; };
 		0F97089A20D3B13900D0B476 /* PopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
 		0FDB80B820DB5904005D9C58 /* SubChannelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubChannelController.swift; sourceTree = "<group>"; };
+		1E0DF0A38917623D791B4E2B /* Pods-AgoraDualChannels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraDualChannels.release.xcconfig"; path = "Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels.release.xcconfig"; sourceTree = "<group>"; };
 		2F4CB10D21FACFB200FAEEA0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		3BF71CD123432C5D00CC6FA2 /* AgoraDualChannels-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AgoraDualChannels-Bridging-Header.h"; path = "AgoraDualChannels/AgoraDualChannels-Bridging-Header.h"; sourceTree = "<group>"; };
+		6C3944404303793D005176B6 /* Pods_AgoraDualChannels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraDualChannels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		704B1C8622A0DD7800968958 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		879EEAE967EABED25599961D /* Pods-AgoraDualChannels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraDualChannels.debug.xcconfig"; path = "Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				0F7EAADC20D3641400283021 /* SystemConfiguration.framework in Frameworks */,
 				0F7EAADA20D3640B00283021 /* libc++.tbd in Frameworks */,
 				0F7EAAD820D3640400283021 /* libresolv.tbd in Frameworks */,
+				9A9084067F0F9CEAA06B55B0 /* Pods_AgoraDualChannels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,7 @@
 				0F6E2E4F20D2518F003C999E /* AgoraDualChannels */,
 				0F6E2E4E20D2518F003C999E /* Products */,
 				0F7EAAD620D3640400283021 /* Frameworks */,
+				9631FD95E22CAA57E8A4746D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +150,7 @@
 				0F7EAADB20D3641400283021 /* SystemConfiguration.framework */,
 				0F7EAAD920D3640B00283021 /* libc++.tbd */,
 				0F7EAAD720D3640400283021 /* libresolv.tbd */,
+				6C3944404303793D005176B6 /* Pods_AgoraDualChannels.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,6 +194,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		9631FD95E22CAA57E8A4746D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				879EEAE967EABED25599961D /* Pods-AgoraDualChannels.debug.xcconfig */,
+				1E0DF0A38917623D791B4E2B /* Pods-AgoraDualChannels.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F6E2E5F20D25191003C999E /* Build configuration list for PBXNativeTarget "AgoraDualChannels" */;
 			buildPhases = (
+				53A6043690221B120E6FA029 /* [CP] Check Pods Manifest.lock */,
 				0F6E2E4920D2518F003C999E /* Sources */,
 				0F6E2E4A20D2518F003C999E /* Frameworks */,
 				0F6E2E4B20D2518F003C999E /* Resources */,
+				25E4B33D62784CBC86128C2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +237,7 @@
 				TargetAttributes = {
 					0F6E2E4C20D2518F003C999E = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -254,6 +272,59 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E4B33D62784CBC86128C2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAIDenoiseExtension/AgoraAIDenoiseExtension.framework/AgoraAIDenoiseExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcKit/AgoraRtcKit.framework/AgoraRtcKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Agoraffmpeg/Agoraffmpeg.framework/Agoraffmpeg",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraCore/AgoraCore.framework/AgoraCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraSoundTouch/AgoraSoundTouch.framework/AgoraSoundTouch",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Agorafdkaac/Agorafdkaac.framework/Agorafdkaac",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAIDenoiseExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraRtcKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agoraffmpeg.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraSoundTouch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agorafdkaac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53A6043690221B120E6FA029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraDualChannels-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F6E2E4920D2518F003C999E /* Sources */ = {
@@ -412,10 +483,12 @@
 		};
 		0F6E2E6020D25191003C999E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879EEAE967EABED25599961D /* Pods-AgoraDualChannels.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7289G77ZF3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGPA4952KY;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.agora.AgoraPremium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = AgoraIOTest2019;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "AgoraDualChannels/AgoraDualChannels-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,10 +509,12 @@
 		};
 		0F6E2E6120D25191003C999E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0DF0A38917623D791B4E2B /* Pods-AgoraDualChannels.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7289G77ZF3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JGPA4952KY;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.agora.AgoraPremium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = AgoraIOTest2019;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "AgoraDualChannels/AgoraDualChannels-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

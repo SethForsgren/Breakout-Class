@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		183C29DD6DE04D22CA29BAE61F5C530B /* AgoraRtcEngine_iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04B1250828DAF5494C44E1F48CA49872 /* Build configuration list for PBXAggregateTarget "AgoraRtcEngine_iOS" */;
+			buildPhases = (
+				3823FFC8C69DD2732B8DFD83667AE038 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AgoraRtcEngine_iOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9563C24EA74AC5BC17BCD5E1C8AECF2B /* Pods-AgoraDualChannels-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA726803F542C11EB28D2D1A573435D1 /* Pods-AgoraDualChannels-dummy.m */; };
+		A2D172D7C2CC2616174115D7C196BBA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AC6EDE6CD5AC1244FAD78D2D6B46F9E2 /* Pods-AgoraDualChannels-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95BDB3E1B169BE5B109DB797C4ED9EEA /* Pods-AgoraDualChannels-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59D3AADCC2396F073EB78729017616FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183C29DD6DE04D22CA29BAE61F5C530B;
+			remoteInfo = AgoraRtcEngine_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C576392E23FB6D0F7BFD216436B9D6 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		27D066FC73E80542895402CE5595EE00 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		3928DF269B565CC5D017351BD0384047 /* AgoraRtcEngine_iOS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AgoraRtcEngine_iOS-xcframeworks.sh"; sourceTree = "<group>"; };
+		45A1C8F856EB25EB9AD22251206D5914 /* Pods-AgoraDualChannels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgoraDualChannels.debug.xcconfig"; sourceTree = "<group>"; };
+		4EF12790C0C20603DDDAD01ADF3C1DBC /* Pods_AgoraDualChannels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgoraDualChannels.framework; path = "Pods-AgoraDualChannels.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F455F7872FAD6752CDE424D34D6BF42 /* Pods-AgoraDualChannels-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgoraDualChannels-Info.plist"; sourceTree = "<group>"; };
+		5C4C2B582F1641752981AA233C038029 /* Pods-AgoraDualChannels-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgoraDualChannels-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CDC770E4A478237F888B07F4816D368 /* Pods-AgoraDualChannels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgoraDualChannels.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		737EEB7CFBA5426153A59026767E7818 /* Pods-AgoraDualChannels-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgoraDualChannels-frameworks.sh"; sourceTree = "<group>"; };
+		76A8B01DD2068F458BDEBA2C7969BAFB /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		95BDB3E1B169BE5B109DB797C4ED9EEA /* Pods-AgoraDualChannels-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgoraDualChannels-umbrella.h"; sourceTree = "<group>"; };
+		9D2C009929A05F11B4220D662EB0335E /* Pods-AgoraDualChannels-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgoraDualChannels-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA726803F542C11EB28D2D1A573435D1 /* Pods-AgoraDualChannels-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgoraDualChannels-dummy.m"; sourceTree = "<group>"; };
+		AC98157221CE5B76B69FDF5D804717C9 /* AgoraAIDenoiseExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraAIDenoiseExtension.xcframework; sourceTree = "<group>"; };
+		C445959002737752ABF1E6C99794387C /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		D9DA509AB72BD93D5490AC5DBDC4C820 /* AgoraRtcEngine_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_iOS.release.xcconfig; sourceTree = "<group>"; };
+		E6739E2208DEF19CAB0EE189A56D0508 /* AgoraCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AgoraCore.xcframework; sourceTree = "<group>"; };
+		E8322FFB064E38D52781ACFC72C152C1 /* AgoraRtcEngine_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		EE074FBFD14EE0F2440E163028FF319F /* Pods-AgoraDualChannels.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AgoraDualChannels.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932D77D105C12E0E9750C5DC03846E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D172D7C2CC2616174115D7C196BBA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A7D4551A7E6ECA8BE2954C2ECBA9EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC98157221CE5B76B69FDF5D804717C9 /* AgoraAIDenoiseExtension.xcframework */,
+				E6739E2208DEF19CAB0EE189A56D0508 /* AgoraCore.xcframework */,
+				76A8B01DD2068F458BDEBA2C7969BAFB /* Agorafdkaac.xcframework */,
+				10C576392E23FB6D0F7BFD216436B9D6 /* Agoraffmpeg.xcframework */,
+				27D066FC73E80542895402CE5595EE00 /* AgoraRtcKit.xcframework */,
+				C445959002737752ABF1E6C99794387C /* AgoraSoundTouch.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AFB1399F3B4795435A5077CA4F0D34F /* AgoraRtcEngine_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11A7D4551A7E6ECA8BE2954C2ECBA9EF /* Frameworks */,
+				7D9B0571F62537EBE4ADEFEC20F6D23A /* Support Files */,
+			);
+			name = AgoraRtcEngine_iOS;
+			path = AgoraRtcEngine_iOS;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F6E83EE8503A6B7C6D6402FC4C9AD72 /* Pods-AgoraDualChannels */ = {
+			isa = PBXGroup;
+			children = (
+				EE074FBFD14EE0F2440E163028FF319F /* Pods-AgoraDualChannels.modulemap */,
+				5C4C2B582F1641752981AA233C038029 /* Pods-AgoraDualChannels-acknowledgements.markdown */,
+				9D2C009929A05F11B4220D662EB0335E /* Pods-AgoraDualChannels-acknowledgements.plist */,
+				AA726803F542C11EB28D2D1A573435D1 /* Pods-AgoraDualChannels-dummy.m */,
+				737EEB7CFBA5426153A59026767E7818 /* Pods-AgoraDualChannels-frameworks.sh */,
+				4F455F7872FAD6752CDE424D34D6BF42 /* Pods-AgoraDualChannels-Info.plist */,
+				95BDB3E1B169BE5B109DB797C4ED9EEA /* Pods-AgoraDualChannels-umbrella.h */,
+				45A1C8F856EB25EB9AD22251206D5914 /* Pods-AgoraDualChannels.debug.xcconfig */,
+				6CDC770E4A478237F888B07F4816D368 /* Pods-AgoraDualChannels.release.xcconfig */,
+			);
+			name = "Pods-AgoraDualChannels";
+			path = "Target Support Files/Pods-AgoraDualChannels";
+			sourceTree = "<group>";
+		};
+		7D9B0571F62537EBE4ADEFEC20F6D23A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3928DF269B565CC5D017351BD0384047 /* AgoraRtcEngine_iOS-xcframeworks.sh */,
+				E8322FFB064E38D52781ACFC72C152C1 /* AgoraRtcEngine_iOS.debug.xcconfig */,
+				D9DA509AB72BD93D5490AC5DBDC4C820 /* AgoraRtcEngine_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AgoraRtcEngine_iOS";
+			sourceTree = "<group>";
+		};
+		852364FF1DFB0879F2670C0C92716AA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E83EE8503A6B7C6D6402FC4C9AD72 /* Pods-AgoraDualChannels */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C9441359316F8C32058C2564CE4D198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFB1399F3B4795435A5077CA4F0D34F /* AgoraRtcEngine_iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8454CFD5735C4F1B930A8EB1D252328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF12790C0C20603DDDAD01ADF3C1DBC /* Pods_AgoraDualChannels.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8C9441359316F8C32058C2564CE4D198 /* Pods */,
+				B8454CFD5735C4F1B930A8EB1D252328 /* Products */,
+				852364FF1DFB0879F2670C0C92716AA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84AF37C33BCA698FF4D22ACCBD239E7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6EDE6CD5AC1244FAD78D2D6B46F9E2 /* Pods-AgoraDualChannels-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CC4375A70A86013553EE58BDB620EA4 /* Pods-AgoraDualChannels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDE94CD76275D4EEB4220C0073ADDFF /* Build configuration list for PBXNativeTarget "Pods-AgoraDualChannels" */;
+			buildPhases = (
+				84AF37C33BCA698FF4D22ACCBD239E7D /* Headers */,
+				66E962C7392A8B8F897126A570FACC8C /* Sources */,
+				932D77D105C12E0E9750C5DC03846E7F /* Frameworks */,
+				710671B299BCAA08A291E5DB756E6D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3379A65CE0DEA8A40B794F565AEA1157 /* PBXTargetDependency */,
+			);
+			name = "Pods-AgoraDualChannels";
+			productName = "Pods-AgoraDualChannels";
+			productReference = 4EF12790C0C20603DDDAD01ADF3C1DBC /* Pods_AgoraDualChannels.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B8454CFD5735C4F1B930A8EB1D252328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183C29DD6DE04D22CA29BAE61F5C530B /* AgoraRtcEngine_iOS */,
+				2CC4375A70A86013553EE58BDB620EA4 /* Pods-AgoraDualChannels */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710671B299BCAA08A291E5DB756E6D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3823FFC8C69DD2732B8DFD83667AE038 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/AgoraRtcEngine_iOS/AgoraRtcEngine_iOS-xcframeworks.sh",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraAIDenoiseExtension.xcframework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraRtcKit.xcframework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/Agoraffmpeg.xcframework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraCore.xcframework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraSoundTouch.xcframework",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/Agorafdkaac.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAIDenoiseExtension",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraRtcKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Agoraffmpeg",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraSoundTouch",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Agorafdkaac",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AgoraRtcEngine_iOS/AgoraRtcEngine_iOS-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E962C7392A8B8F897126A570FACC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9563C24EA74AC5BC17BCD5E1C8AECF2B /* Pods-AgoraDualChannels-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3379A65CE0DEA8A40B794F565AEA1157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtcEngine_iOS;
+			target = 183C29DD6DE04D22CA29BAE61F5C530B /* AgoraRtcEngine_iOS */;
+			targetProxy = 59D3AADCC2396F073EB78729017616FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		338BCCD2BD76CD025500195277869DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A1C8F856EB25EB9AD22251206D5914 /* Pods-AgoraDualChannels.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF644E43D2659C3657E694215490688A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDC770E4A478237F888B07F4816D368 /* Pods-AgoraDualChannels.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgoraDualChannels/Pods-AgoraDualChannels.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8CA07BB4C617E07AD753F41F1B0EF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8322FFB064E38D52781ACFC72C152C1 /* AgoraRtcEngine_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE34C4FA39986F629F64294439EF7660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DA509AB72BD93D5490AC5DBDC4C820 /* AgoraRtcEngine_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B1250828DAF5494C44E1F48CA49872 /* Build configuration list for PBXAggregateTarget "AgoraRtcEngine_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CA07BB4C617E07AD753F41F1B0EF57 /* Debug */,
+				EE34C4FA39986F629F64294439EF7660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDE94CD76275D4EEB4220C0073ADDFF /* Build configuration list for PBXNativeTarget "Pods-AgoraDualChannels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338BCCD2BD76CD025500195277869DDE /* Debug */,
+				AF644E43D2659C3657E694215490688A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

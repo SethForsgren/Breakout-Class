@@ -1,0 +1,6 @@
+framework module Pods_AgoraDualChannels {
+  umbrella header "Pods-AgoraDualChannels-umbrella.h"
+
+  export *
+  module * { export * }
+}
