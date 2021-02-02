@@ -9,6 +9,6 @@
 #ifndef AgoraDualChannels_Bridging_Header_h
 #define AgoraDualChannels_Bridging_Header_h
 
-#import <AgoraRtcEngineKit/AgoraRtcChannel.h>
+#import <AgoraRtcKit/AgoraRtcChannel.h>
 
 #endif /* AgoraDualChannels_Bridging_Header_h */

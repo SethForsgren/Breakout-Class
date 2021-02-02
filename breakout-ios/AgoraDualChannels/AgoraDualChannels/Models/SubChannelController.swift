@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AgoraRtcEngineKit
+import AgoraRtcKit
 
 @objc protocol SubRtcEngineDelegate: NSObjectProtocol {
     @objc optional func rtc_Channel( channel: AgoraRtcChannel, didJoinChannel channel: String, withUid uid: UInt, elapsed: Int)
